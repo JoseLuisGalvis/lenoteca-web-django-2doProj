@@ -130,6 +130,8 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'jolugales@gmail.com'
 EMAIL_HOST_PASSWORD = 'yrsa6662'
 
+import os
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
@@ -140,7 +142,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import os
+
 
 MEDIA_URL  = 'images/'
 MEDIA_ROOT = ''
+
