@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% block title %} About {% endblock %}
+
+{% block content %}
+{% load static %}
+<section class="page-section-about about-heading">
+    <div class="container_about">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/vinateria.jpg' %}" alt="">
+    </div>
+    <div class="about-heading-content">
+        <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+                <div class="bg-faded rounded p-5">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Tradición familiar italiana</span>
+                        <span class="section-heading-lower">Nuestra historia</span>
+                    </h2>
+                    <p>L'enoteca Vinateria nació hace más de 15 años en CABA -Argentina, cuando Juan Bimba, después de trabajar más de una década en un negocio familiar dedicado al vino, decidió iniciar su propio negocio.</p>
+                    <p> En 1998 abría una tienda de poco más de 80 m2, la cual servía para la venta al por menor, al por mayor y la distribución. Con el tiempo el proyecto se fue ampliando, primero con un almacén de 400 m2,
+                        después con el traslado de la tienda a otra más grande, en 2012 con la creación de L'enoteca.com y finalmente, a principios del 2015, ampliando las Sucursales en diferentes Barrios de la Ciudad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
